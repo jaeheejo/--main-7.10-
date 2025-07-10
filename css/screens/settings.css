@@ -1,0 +1,42 @@
+.settings-list {
+    padding: 20px 0px;
+}
+
+.settings-setting {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-border {
+    border-bottom: 0cap;
+}
+
+.settings-setting i {
+    margin-right: 10px;
+    font-size: 25px;
+    opacity: 0.8;
+}
+
+.settings-setting__column {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.optional {
+    opacity: 0.7;
+}
+
+.wide-border {
+    border-bottom: var(--main-border);
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.settings-setting__column .badge {
+    font-size: 12px;
+    margin-left: 5px;
+}

@@ -1,0 +1,105 @@
+.user-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.user-component__column {
+    display: flex;
+    align-items: center;
+}
+
+.user-component__avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 22.5px;
+    margin-right: 15px;
+}
+
+.user-component__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-component__title {
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+}
+
+.user-component__subtitle {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+.exclamation {
+    display: inline-block;
+    border: 2px solid tomato;
+    border-radius: 100%;
+    width: 15px;
+    text-align: center;
+    color: tomato;
+    font-weight: 600;
+    margin: 4px
+}
+
+.user-component__avatar--xl {
+    height: 70px;
+}
+
+.user-component__avatar--sm {
+    width: 50px;
+    height: 50px;
+    border-radius: 18px;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+    /*옆으로 가게*/
+    display: fle
+    /*다시 위아래로*/
+    flex-direction: column;
+    /*오른쪽으로 붙게*/
+    align-items: center;
+    /*근데 이러면 이제 프렌즈 스크린이 깨짐
+    이럴 땐 모다? 바로 손윗부모를 하나 더 씌워주기 div..*/
+}
+
+.user-component__notification {
+    color: white;
+    font-weight: 600;
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.user-component__badge {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-component__badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-component__subtitle i {
+    margin: 5px;
+}

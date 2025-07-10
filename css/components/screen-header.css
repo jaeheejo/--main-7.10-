@@ -1,0 +1,49 @@
+.screen-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--horizontal-space);
+    margin-bottom: 10px;
+}
+
+.screen-header__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.screen-header__icons span {
+    margin-left: 20px;
+}
+
+.gear-icon {
+    position: relative;
+}
+
+.screen-header__notification {
+    color: white;
+    font-weight: 600;
+    background-color: tomato;
+    width: 3px;
+    height: 3px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+@keyframes rotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateGear 3s linear infinite;
+}

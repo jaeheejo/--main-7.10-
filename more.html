@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-music fa-lg"></i></span>
+            <span class="gear-icon"><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a><span class="screen-header__notification"></span></span>
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://i.pinimg.com/236x/fb/d0/ea/fbd0ea27d4694607c9a34ba4544364c4.jpg"
+                    class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Minami</h4>
+                    <h6 class="user-component__subtitle">+44 7472-704
+                        <div class="exclamation">!</div>
+                    </h6>
+                </div>
+            </div>
+            <div>
+                <i class="fa-regular fa-message fa-2x"></i>
+            </div>
+        </div>
+        <div class="option-icons">
+            <div class="option-icons__first-row">
+                <div class="option-icons__icon"><i class="fa-solid fa-calendar-plus fa-2x"></i><span>Calendar</span></div>
+                <div class="option-icons__icon"><i class="fa-solid fa-inbox fa-2x"></i><span>Talk Drive</span></div>
+                <div class="option-icons__icon"><i class="fa-regular fa-face-smile fa-2x"></i><span>Emoticons</span></div>
+                <div class="option-icons__icon"><i class="fa-solid fa-broom fa-2x"></i><span>Themes</span></div>
+            </div>
+            <div class="option-icons__second-row">
+                <div class="option-icons__icon"><i class="fa-brands fa-connectdevelop fa-2x"></i><span>Account</span></div>
+                <div class="option-icons__icon"><i class="fa-sharp fa-regular fa-message fa-2x"></i><span>Openchat</span></div>
+                <div class="option-icons__icon opacity-zero"><i class="fa-brands fa-connectdevelop fa-2x"></i><span>Account</span></div>
+                <div class="option-icons__icon opacity-zero"><i class="fa-sharp fa-regular fa-message fa-2x"></i><span>Openchat</span></div>
+            </div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img yellow"><i class="fa-solid fa-quote-right"></i></div>
+                    <span>Kakao Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img"><img src="https://imgs.search.brave.com/oE862rUD9ih_E48iNWMDiGVcZ1-CETkqgxaMu2sBgj0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cG5na2V5LmNvbS9w/bmcvZGV0YWlsLzE5/MC0xOTA5MzcwX2N1/dGUta2FrYW90YWxr/LWVtb2ppLWthd2Fp/aS1rb3JlYW4tYXNp/YW4ta2FrYW8tdGFs/ay5wbmc"/></div>
+                    <span>Kakao friends</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-img relative"><img src="https://imgs.search.brave.com/LVDNghd_5qGE__DRnOyCyDVu1Bff0zLLbV31OqG7SqY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9vLnFv/by1pbWcuY29tL2dn/cGh0L0RaYzdOZzcw/WlVKeFJoUTdJbVpI/UEEwb01pLXUwdE9f/YW5hM0ZfWVpkWHFx/TkxOeG9SVmJwQ1hW/N2M1ZmE5blBQSVc0"/>
+                        <div class="kakao-logo"><img src="https://imgs.search.brave.com/wBzDozf239Rgxa4R1TMyGkGkyvoisegt-KHeQfkW5js/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/ZGl4LmNvbS9sb2dv/LzE5NTc5MzEucG5n"/></div>
+                    </div>
+                    <span>Friends Gem</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats2.html">
+                    <span class="nav__notification">2</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i
+                        class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i><span
+                        class="screen-header__notification"></span></a></li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/248617129c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
