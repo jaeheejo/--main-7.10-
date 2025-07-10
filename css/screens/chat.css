@@ -42,7 +42,13 @@
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    animation: messageAnimation 1s ease-in-out;
 }
+
+.message-row__my {
+    animation: myMessageAnimation 1s ease-in-out;
+}
+
 
 .message-row img {
     width: 50px;
@@ -115,7 +121,7 @@
     padding: 5px 5px;
     align-items: center;
     box-sizing: border-box;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .reply .reply__column:first-child {
@@ -198,4 +204,20 @@
 .reply:focus-within input {
     width: 100%;
     transform: translateY(-80px);
+}
+
+@keyframes messageAnimation {
+    from {}
+
+    to {
+        transform: translateX(50PX)
+    }
+}
+
+@keyframes myMessageAnimation {
+    from {}
+
+    to {
+        transform: translateX(-50PX)
+    }
 }
